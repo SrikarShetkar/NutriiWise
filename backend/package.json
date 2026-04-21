@@ -1,0 +1,27 @@
+{
+  "name": "nutriwise-backend",
+  "version": "1.0.0",
+  "description": "NutriWise Backend API - Student Nutrition & Meal Planning",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/utils/seedDatabase.js"
+  },
+  "keywords": ["nutrition", "meal-planning", "students", "health"],
+  "author": "NutriWise Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
